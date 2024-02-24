@@ -1,7 +1,7 @@
 const { Router } = require("express")
 
 class BaseRoute {
-    path = "alive"
+    path = "/alive"
     router = Router()
 
     constructor() {
